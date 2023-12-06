@@ -81,4 +81,4 @@ jobs:
             Rom Name: ${{ github.event.inputs.NAME }}
             Flash: Extract the 7z file and flash through ODIN in AP Section.
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
