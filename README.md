@@ -15,7 +15,10 @@
 <br>1. Add Direct link of GSI</br>
 
 - You can directly use the link of gsi (.xz) from Github.
-
+- Like This:
+```sh
+https://github.com/ponces/treble_build_aosp/releases/download/v2023.12.01/aosp-arm64-ab-gapps-14.0-20231201.img.xz
+```
 - If you use link form sourceforge.net;
 <br>⚬ Copy downlad link of your gsi you'll get a link like this:</br>
  ```sh
@@ -35,3 +38,5 @@ like this LineageOS-20.1-a035fxxnn-arm64-gapps.7z
 <br>4. Add Vendor Img Link
   - Use direct Link or remove /download from the ending of link if you use sourceforge link
   - Link must be end like vendor.img
+ #Credits:
+  @gauravv-x1
