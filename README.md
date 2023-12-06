@@ -38,5 +38,5 @@ like this LineageOS-20.1-a035fxxnn-arm64-gapps.7z
 <br>4. Add Vendor Img Link
   - Use direct Link or remove /download from the ending of link if you use sourceforge link
   - Link must be end like vendor.img
- #Credits:
+ # Credits:
   @gauravv-x1
