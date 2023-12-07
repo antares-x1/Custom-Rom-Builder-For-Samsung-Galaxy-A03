@@ -39,4 +39,7 @@ like this LineageOS-20.1-a035fxxnn-arm64-gapps.7z
   - Use direct Link or remove /download from the ending of link if you use sourceforge link
   - Link must be end like vendor.img
  # Credits:
-  @gauravv-x1
+ These people have helped this project in some way or another, so they should be the ones who receive all the credit:
+- [Phhusson](https://github.com/phhusson)
+- [bruh™](https://github.com/Exynos-nibba)
+- [gauravv.x1](https://github.com/gauravv-x1)
