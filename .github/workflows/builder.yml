@@ -42,12 +42,6 @@ jobs:
         git clone https://github.com/Exynos-nigg/lpunpack-lpmake-mirror.git lpbinary
         cd lpbinary
         bash install.sh
-    - name: Preparing Files
-      run: |
-        cd lpbinary/binary
-        wget ${{ github.event.inputs.VENDOR }}
-        wget https://sourceforge.net/projects/a03-files/files/product.img
-        wget https://sourceforge.net/projects/a03-files/files/system_ext.img
     - name: Downloading Your GSI And Extracting
       run: |
         cd lpbinary/binary
@@ -58,6 +52,12 @@ jobs:
         unxz *.xz
         mv *.img ../system.img
         cd ..
+    - name: Preparing Files
+      run: |
+        cd lpbinary/binary
+        wget ${{ github.event.inputs.VENDOR }}
+        wget https://sourceforge.net/projects/a03-files/files/product.img
+        wget https://sourceforge.net/projects/a03-files/files/system_ext.img
     - name: Packing
       run: |
         cd lpbinary/binary
